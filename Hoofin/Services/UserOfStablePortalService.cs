@@ -11,7 +11,7 @@ namespace Hoofin.Services
     {
         public static void CreateUser(UserOfStablePortal user)
         {
-            UserOfStablePortalRepository.Add(user);
+            UserOfStablePortalRepository.CreateNewUserOfStablePortal(user);
         }
     }
 }

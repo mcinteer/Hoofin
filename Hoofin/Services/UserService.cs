@@ -12,7 +12,7 @@ namespace Hoofin.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly UserRepository _userRepository;
         private readonly UserLogger _logger;
 
         public UserService()
@@ -23,7 +23,7 @@ namespace Hoofin.Services
 
         public void CreateNewUser(RegisterModel model)
         {
-            _userRepository.CreateNewUser(model);
+            _userRepository.CreateNewUser();
         }
     }
 }

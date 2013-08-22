@@ -201,7 +201,7 @@
     <Compile Include="Models\Database\StableUser.cs" />
     <Compile Include="Models\Database\UserOfStablePortal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\Interfaces\IUserRepository.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\StableUserRepository.cs" />
     <Compile Include="Repositories\UserOfStablePortalRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />

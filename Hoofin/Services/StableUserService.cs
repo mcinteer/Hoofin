@@ -13,7 +13,7 @@ namespace Hoofin.Services
 
         public static void CreateNewStableUser(StableUser stableUser)
         {
-            StableUserRepository.Add(stableUser);
+            StableUserRepository.CreateNewStableUser(stableUser);
         }
     }
 
